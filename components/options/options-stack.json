@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_options_options_stacks",
+  "info": {
+    "name": "options_stack",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "stack": {
+      "type": "string"
+    }
+  }
+}

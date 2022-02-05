@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_options_options_projects",
+  "info": {
+    "name": "options_features",
+    "icon": "filter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "feature": {
+      "type": "string"
+    }
+  }
+}

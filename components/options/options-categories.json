@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_options_options_categories",
+  "info": {
+    "name": "options_categories",
+    "icon": "tenge",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "DataScience",
+        "Blockchain",
+        "Code",
+        "Mindfulness"
+      ]
+    }
+  }
+}

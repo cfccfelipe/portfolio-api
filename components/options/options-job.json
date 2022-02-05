@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_options_options_jobs",
+  "info": {
+    "name": "options_job",
+    "icon": "check-double"
+  },
+  "options": {},
+  "attributes": {
+    "desc_option": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
