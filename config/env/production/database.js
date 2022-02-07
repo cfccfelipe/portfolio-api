@@ -6,17 +6,20 @@ module.exports = ({ env }) => {
     return {
       defaultConnection: "default",
       connections: {
-        connector: "bookshelf",
-        settings: {
-          client: "postgres",
-          host: config.host,
-          port: config.port,
-          database: config.database,
-          user: config.user,
-          password: config.password,
-          ssl: {
-            rejectUnauthorized: false,
+        default: {
+          connector: "bookshelf",
+          settings: {
+            client: "postgres",
+            host: config.host,
+            port: config.port,
+            database: config.database,
+            user: config.user,
+            password: config.password,
+            ssl: {
+              rejectUnauthorized: false,
+            },
           },
+          options: {},
         },
       },
     };
