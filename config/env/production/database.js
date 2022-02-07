@@ -4,9 +4,11 @@ const config = parse(process.env.DATABASE_URL);
 module.exports = ({ env }) => {
   if (env("NODE_ENV") === "production") {
     return {
-      connection: {
-        client: "postgres",
-        connection: {
+      defaultConnection: "default",
+      connections: {
+        connector: "bookshelf",
+        settings: {
+          client: "postgres",
           host: config.host,
           port: config.port,
           database: config.database,
@@ -16,7 +18,6 @@ module.exports = ({ env }) => {
             rejectUnauthorized: false,
           },
         },
-        debug: false,
       },
     };
   }
